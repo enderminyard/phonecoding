@@ -48,8 +48,7 @@ The code editor has simple navigation (at bottom of screenshot) and allows you t
 Clone the project:
 
 ```bash
-  git clone --depth 1
-  https://github.com/enderminyard/phonecoding phone
+  git clone --depth 1 https://github.com/enderminyard/phonecoding phone
 ```
 
 Go to the project directory:
