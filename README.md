@@ -14,21 +14,27 @@ people who want to make simple HTML webpages on touch devices.
 - Highlighting of active line and word
 - Live autocompletion
 
-## Screenshots
-
-The code editing experience is simple but tailored for mobile with robust, live autocompletion. 
-
-![Code Editing](https://i.ibb.co/SBy8XXD/Screen-Shot-2023-02-28-at-8-15-25-PM.png)
-
-The editor's random code generation feature allows you to relax while coding instead of coding for productivity's sake only. This is a randomly generated webpage.
 
 
-![Random Code Generation](https://i.ibb.co/RPmyNBc/og.png)
+<h2 align="center"> Screenshots</h2>
 
-The code editor has simple navigation (at bottom of screenshot) and allows you to download the code you have written.
 
-![Navigation](https://i.ibb.co/DL9b9QT/Screen-Shot-2023-02-28-at-8-15-38-PM.png)
 
+<p align="center">
+The code editing experience is simple but tailored for mobile with robust, live autocompletion. <br><br>
+<img src='https://i.ibb.co/SBy8XXD/Screen-Shot-2023-02-28-at-8-15-25-PM.png' alt='Code Editing' width=400>
+</p>
+
+
+<p align="center">
+The editor's random code generation feature allows you to relax while coding instead of coding for productivity's sake only.<br> This is a randomly generated webpage. <br><br>
+<img src='https://i.ibb.co/RPmyNBc/og.png' alt='Random Code Generation' width=400>
+</p>
+
+<p align="center">
+The code editor has simple navigation (at bottom of screenshot) and allows you to download the code you have written.<br><br>
+<img src='https://i.ibb.co/DL9b9QT/Screen-Shot-2023-02-28-at-8-15-38-PM.png' alt='Navigation' width=400>
+</p>
 
 ## Roadmap
 
