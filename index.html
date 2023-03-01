@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en_US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/catppuccin.css" />
+    <link rel="stylesheet" href="src/css/index.css" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="pink" />
+    <link rel="canonical" href="https://phonecoding.github.io" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>"
+    />
+    <title>mobile code editor</title>
+    <meta property="og:title" content="mobile code editor" />
+    <meta name="description" content="Code on your phone." />
+    <meta property="og:description" content="Code on your phone." />
+    <meta property="og:image" content="https://i.ibb.co/RPmyNBc/og.png" />
+    <meta property="og:locale" content="en_US" />
+  </head>
+  <body class="smol-container">
+    <header>
+      <img
+        src="src/assets/left-header.png"
+        role="presentation"
+        class="decoration"
+        alt="marble patterned bread in the shape of a cat head"
+      />
+      <h1>mobile coding</h1>
+      <img
+        src="src/assets/right-header.png"
+        role="presentation"
+        class="decoration"
+        alt="plain yellow bread in the shape of a cat head"
+      />
+    </header>
+    <main>
+      <h2 class="no-margin"><span id="code-header">code editor</span></h2>
+      <menu>
+        <button id="bookmark">🔖 bookmark</button>
+        <button id="random">random 🎲</button>
+      </menu>
+      <section id="code">
+        <pre id="editor"></pre>
+      </section>
+      <menu id="safety">
+        <button id="undo">⬅️ undo</button
+        ><button class="right" id="redo">redo ➡️</button>
+      </menu>
+      <h2 class="no-margin"><span id="preview-header">code preview</span></h2>
+      <section id="preview">
+        <iframe></iframe>
+      </section>
+    </main>
+    <br />
+    <h3 class="no-margin"><span id="feedback-header">feedback</span></h3>
+    <section id="feedback">
+      <figure>
+        <img
+          src="src/assets/bunny.png"
+          role="presentation"
+          class="decoration"
+          alt="Miffy plushie in a blue shirt"
+        />
+        <figcaption
+          id="bunny"
+          data-text="Hi! I'm here to give you feedback."
+        ></figcaption>
+      </figure>
+    </section>
+    <br />
+    <menu>
+      <button id="share">🎨 share this</button>
+      <button id="download" class="right">download this ⬇️</button>
+    </menu>
+    <h3 class="no-margin"><span id="bookmarks-header">bookmarks</span></h3>
+    <section
+      id="bookmarks"
+      data-text="Bookmark a site you created and save it for later."
+    ></section>
+    <menu id="sticky-menu">
+      <a class="button" role="button" href="#code-header">editor</a>
+      <a class="button" role="button" href="#preview-header">preview</a>
+      <a class="button" role="button" href="#feedback-header">feedback</a>
+      <a class="button" role="button" href="#bookmarks-header">bookmarks</a>
+    </menu>
+    <script src="src/js/src-min-noconflict/ace.js"></script>
+    <script src="src/js/src-min-noconflict/ext-language_tools.js"></script>
+    <script src="src/js/min.js"></script>
+  </body>
+</html>
