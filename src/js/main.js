@@ -678,7 +678,7 @@ const sharing = async () => {
   const shareData = {
     title: "Mobile Code Editor",
     text: "Code on your phone.",
-    url: "https://phonecoding.github.io",
+    url: "https://enderminyard.github.io/phonecoding",
   };
 
   try {
@@ -686,7 +686,7 @@ const sharing = async () => {
     bunny.innerHTML = `<p><br>Shared successfully! 🎉<br></p>`;
   } catch (e) {
     console.log(e);
-    await navigator.clipboard.writeText("https://phonecoding.github.io");
+    await navigator.clipboard.writeText("https://enderminyard.github.io/phonecoding");
     bunny.innerHTML = `<p><br>Website link copied to clipboard! 🎉<br></p>`;
   }
 };
