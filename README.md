@@ -17,13 +17,16 @@ people who want to make simple HTML webpages on touch devices.
 ## Screenshots
 
 The code editing experience is simple but tailored for mobile with robust, live autocompletion. 
+
 ![Code Editing](https://i.ibb.co/SBy8XXD/Screen-Shot-2023-02-28-at-8-15-25-PM.png)
 
 The editor's random code generation feature allows you to relax while coding instead of coding for productivity's sake only. This is a randomly generated webpage.
 
+
 ![Random Code Generation](https://i.ibb.co/RPmyNBc/og.png)
 
 The code editor has simple navigation (at bottom of screenshot) and allows you to download the code you have written.
+
 ![Navigation](https://i.ibb.co/DL9b9QT/Screen-Shot-2023-02-28-at-8-15-38-PM.png)
 
 
