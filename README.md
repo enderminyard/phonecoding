@@ -49,7 +49,7 @@ Clone the project:
 
 ```bash
   git clone --depth 1
-  https://github.com/enderminyard/phonecoding.github.io phone
+  https://github.com/enderminyard/phonecoding phone
 ```
 
 Go to the project directory:
